@@ -14,4 +14,94 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coroutine.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json_reference.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="delegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="of_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="size_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="validation_helper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coroutine.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="of_validation.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="size_validation.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bool_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="null_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="number_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="integer_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object_validation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="json_reference.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coroutine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="validation_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="array_validation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bool_validation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="null_validation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_validation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="number_validation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object_validation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="string_validation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="validator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="validator.hh">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
